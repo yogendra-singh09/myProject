@@ -1,0 +1,44 @@
+
+ctrl + ]   => jump to defination
+ctrl + T ==> back to orignal file
+g + ] ==> multiple
+
+
+cscope -R
+
+
+
+to_exit ctrl +D
+
+
+
+git init
+git add  to staging area
+git commit -s sign-off area
+git rm  --cached "filename"
+
+git reset HEAD <filename> ==> changes remain as it is
+git checkout . => remove the changes from the files
+
+
+
+git commit -s -F <path of the file containing the log message>
+
+first 6 character is enough for mentioning the commit id
+
+git reset --hard "commit-id" => remove all the changes above this commit-id and head
+                                is pointing commit-id
+                                
+if we know the commit-id its possible to go back
+git reflockc
+git revert =>> it will revert the changes with new chagne-id
+
+HEAD^1 count back number change id
+ex   git reset --hard HEAD^1
+
+Advance bash scripting
+
+
+sbrowesr 
+   setting-> compiler command-line Options -DskipNativeBuild=true
+ 
